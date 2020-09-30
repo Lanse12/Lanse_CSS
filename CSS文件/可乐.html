@@ -1,0 +1,36 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>旋转可乐罐</title>
+		<style type="text/css">
+			.kl-box{ 
+				margin-top: 150px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			#kele{
+				background-image: url('yasuo.png');
+				background-repeat: repeat-x;
+				background-position: 0 10px;
+				animation: bg 4.5s linear infinite;
+			}
+			@keyframes bg{
+				from{
+					background-position: 0px 10px;
+				}
+				to{
+					background-position: -540px 10px;
+				}
+			}		
+		</style>
+	</head>
+	<body>
+		<div class="kl-box">
+			<div id="kele">
+				<img src="coke-can.png" >
+			</div>
+		</div>
+	</body>
+</html>
